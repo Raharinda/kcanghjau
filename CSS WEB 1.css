@@ -1,0 +1,154 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: none;
+    margin-top: 20px;
+    color: black;
+}
+
+.t1 {
+    text-decoration: none;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.t1:hover {
+    color: red;
+    transition: ease-in-out;
+}
+
+.s1 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    background-color: transparent;
+}
+
+.box {
+    gap: 10vh;
+    margin-top: 35vh;
+}
+
+
+.box2 {
+    margin-top: 50vh;
+    background-color: rgb(185, 65, 65);
+    max-width: 70vh;
+    min-width: 50vh;
+    margin-left: 10vh;
+    padding: 5vh;
+    border-radius: 3vh;
+}
+.box2 p {
+    color: white;
+    margin-bottom: 10vh;
+    text-align: center;
+    font-size: 30px;
+}
+.box3 {
+    color: white;
+}
+.box2 h1 {
+    text-align: none;
+}
+
+.id {
+    padding: 15px;
+    font-size: 20px;
+}
+.img {
+    background-color: white;
+    text-decoration: none;
+    font-size: 30vh;
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80vh;
+    margin-bottom: 20vh;
+    margin-top: 15vh;
+}
+.container {
+    display: flex;
+}
+
+.card {
+    margin-top: 52vh;
+    display: block;
+    margin-left: 15vh;
+    
+    max-height: 10vh;
+    background-color: brown;
+    color: black;
+}
+.card1 {
+    display: flex;
+    text-align: left;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.card1 a {
+    text-align: center;
+    display: grid;
+}
+@media screen and (max-width: 476px) {
+    ul {
+        margin-right: 5px;
+        gap: 20px;
+    }
+
+    .t1 {
+        padding: 0;
+        margin: 10;
+        font-size: 15 px;
+    }
+
+    .box2 {
+        margin-left: 0;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 382px) {
+
+    .logo {
+        margin-left: 5px;
+    }
+
+    ul {
+        margin-right: 5px;
+        gap: 15px;
+    }
+
+    .t1 {
+        margin: 0;
+        font-size: 14px;
+    }
+    .box3 {
+        margin-left: 0;
+        font-size: 2px;
+        margin: 0;
+    }
+}
