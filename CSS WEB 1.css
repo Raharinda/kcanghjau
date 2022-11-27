@@ -5,7 +5,7 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    transition: .4s;
+    transition: .2s;
 }
 
 .logo {
@@ -31,17 +31,21 @@ ul {
     margin-top: 10px;
     color: black;
 }
+
 .switch {
+    margin-left: 8px;
     position: relative;
     display: inline-block;
     width: 50px;
     height: 24px;
     margin-top: 20px;
-  }
-  .switch input {
+}
+
+.switch input {
     display: none;
-  }
-  .slider {
+}
+
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -51,8 +55,9 @@ ul {
     background: #ccc;
     border-radius: 34px;
     transition: .4s;
-  }
-  .slider:before {
+}
+
+.slider:before {
     content: "";
     position: absolute;
     height: 23px;
@@ -62,23 +67,38 @@ ul {
     background: #fff;
     border-radius: 50%;
     transition: .4s;
-  }
-  input:checked + .slider {
+}
+
+input:checked+.slider {
     background: #b892ff;
-  }
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     transform: translateX(26px);
-  }
-  .dark-mode {
+}
+
+.dark-mode {
     background: #0b0a14;
     color: #f7f0e9;
-  }
-  .dark-mode a {
+}
+
+.dark-mode a {
     color: #f7f0e9;
-  }
+}
+
+.dark-mode li {
+    color: white;
+}
 
 .t1:hover {
     color: red;
+}
+
+.t2 {
+    text-decoration: none;
+    gap: 3px;
+    cursor: default;
+    font-size: 10px
 }
 
 .s1 {
@@ -96,10 +116,11 @@ nav {
     gap: 10vh;
     margin-top: 35vh;
 }
+
 .dm {
     background: black;
     color: white;
-  }
+}
 
 .box2 {
     margin-top: 50vh;
@@ -110,6 +131,7 @@ nav {
     padding: 5vh;
     border-radius: 3vh;
 }
+
 .box2 p {
     color: white;
     text-align: center;
@@ -117,13 +139,16 @@ nav {
     display: block;
     position: relative;
 }
+
 .box3 {
     color: white;
 
 }
+
 .bgBoxAbout {
     display: flex;
 }
+
 .box2 h1 {
     text-align: none;
 }
@@ -132,6 +157,7 @@ nav {
     padding: 15px;
     font-size: 20px;
 }
+
 .img {
     background-color: white;
     text-decoration: none;
@@ -146,6 +172,7 @@ nav {
     margin-bottom: 20vh;
     margin-top: 15vh;
 }
+
 .container {
     display: flex;
 }
@@ -158,6 +185,7 @@ nav {
     background-color: brown;
     color: black;
 }
+
 .card1 {
     display: flex;
     text-align: left;
@@ -167,14 +195,17 @@ nav {
     margin: 0;
     padding: 0;
 }
+
 .card1 a {
     text-align: center;
     display: grid;
 }
+
 .bgAbout {
     display: flex;
     margin: 0;
 }
+
 .sectionTitle {
     text-align: center;
     padding: 30px;
@@ -184,15 +215,19 @@ nav {
 .video {
     position: absolute;
 }
+
 @media screen and (max-width: 476px) {
     ul {
         margin-right: 5px;
         gap: 20px;
     }
-
+    .logo {
+        font-size: 20px;
+        margin-left: 5px;
+    }
     .t1 {
         padding: 0;
-        margin: 10;
+        margin: 0;
         font-size: 15 px;
     }
 
@@ -221,6 +256,7 @@ nav {
         margin: 0;
         font-size: 14px;
     }
+
     .box3 {
         margin-left: 0;
         font-size: 2px;
