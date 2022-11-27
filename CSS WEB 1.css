@@ -4,12 +4,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 .logo {
     margin-right: auto;
     margin-left: 20px;
     margin-top: 10px;
+    position: relative;
+    display: flex;
 }
 
 ul {
@@ -18,13 +21,14 @@ ul {
     text-decoration: none;
     font-style: none;
     margin-top: 20px;
-    color: black;
 }
+
 
 .t1 {
     text-decoration: none;
     padding: 50px;
     margin-top: 10px;
+    color: black;
 }
 
 .t1:hover {
@@ -36,16 +40,21 @@ ul {
     text-align: center;
 }
 
-header {
+nav {
     display: flex;
+    position: relative;
     background-color: transparent;
+    background-image: linear-gradient();
 }
 
 .box {
     gap: 10vh;
     margin-top: 35vh;
 }
-
+.dm {
+    background-color: black;
+    color: white;
+  }
 
 .box2 {
     margin-top: 50vh;
@@ -58,12 +67,17 @@ header {
 }
 .box2 p {
     color: white;
-    margin-bottom: 10vh;
     text-align: center;
     font-size: 30px;
+    display: block;
+    position: relative;
 }
 .box3 {
     color: white;
+
+}
+.bgBoxAbout {
+    display: flex;
 }
 .box2 h1 {
     text-align: none;
@@ -95,7 +109,6 @@ header {
     margin-top: 52vh;
     display: block;
     margin-left: 15vh;
-    
     max-height: 10vh;
     background-color: brown;
     color: black;
@@ -113,6 +126,19 @@ header {
     text-align: center;
     display: grid;
 }
+.bgAbout {
+    display: flex;
+    margin: 0;
+}
+.sectionTitle {
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+.video {
+    position: absolute;
+}
 @media screen and (max-width: 476px) {
     ul {
         margin-right: 5px;
@@ -128,6 +154,10 @@ header {
     .box2 {
         margin-left: 0;
         border-radius: 0;
+    }
+
+    .id {
+        padding: 2;
     }
 }
 
