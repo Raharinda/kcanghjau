@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <script src="ic.js"></script>
     <title>NASI GORENG</title>
 </head>
 
@@ -18,21 +17,24 @@
     <!--NAVBAR-->
     <nav class="header">
         <h2 class="logo">Rivys</h2>
-        <ul>
+        <ul class="slide">
             <li><a href="#home" class="t1" ;>Home</a></li>
             <li><a href="#about" class="t1" ;>About</a></li>
             <li><a href="code.html" class="t1">Media</a></li>
             <li class="t2">Dark Mode</li>
         </ul>
+        <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <label class="switch">
             <input type="checkbox" onclick="changeMode()">
             <span class="slider"></span>
         </label>
     </nav>
     <!-- ISI BODY 1 -->
-    <!-- <video autoplay muted loop plays-inline>
-        <source src="assets/lazy.mp4" type="video/mp4">
-    </video> -->
     <br>
     <div class="box">
         <p class="s1">HI DOMO, RAHARINDA DESU~~ </p>
@@ -51,6 +53,7 @@
                     <pre class="id">> Software<span style="margin-left: 10px;"\>: Visual Code Studio</pre>
                 </div>
             </div>
+            <!-- CARD -->
             <div class="card">
                 <a href="" class="card1">
                     Instagram
