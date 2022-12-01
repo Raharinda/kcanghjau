@@ -5,12 +5,13 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     transition: .2s;
-    overflow: hidden;
 }
 
 body {
-   
+    overflow: hidden !important;
+
 }
+
 
 /* SEGALA DI NAV */
 .logo {
@@ -280,13 +281,16 @@ input:checked+.slider:before {
 }
 
 @media screen and (max-width: 576px) {
-        body {
-            overflow: hidden;
-        }
+ 
 
 
 
     /* NAVBAR */
+
+        nav {
+            padding: 0;
+        }
+
     nav ul {
         position: absolute;
         right: 0;
@@ -301,19 +305,15 @@ input:checked+.slider:before {
         cursor: pointer;
         border: white solid 1px;
         z-index: -1;
-        transform: translateX(0);
+        transform: translateX(100%);
     }
 
-    .header:nth-child(3) {
-        border: 100px;
-    }
 
-    nav {
-        padding: 0;
-    }
+
 
     nav ul.slide {
-        transform: translateX(100%);
+        transform: translateX(0%);
+        overflow: auto;
     }
 
     .switch {
