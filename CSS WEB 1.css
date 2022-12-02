@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    transition: .2s;
+    transition: .3s;
 }
 
 body {
@@ -304,14 +304,15 @@ input:checked+.slider:before {
         cursor: pointer;
         border: white solid 1px;
         z-index: -1;
-        transform: translateX(100%);
+        right: 0;
+        transition: ease-in;
     }
 
 
 
 
     nav ul.slide {
-        transform: translateX(0%);
+        right: -100%;
         overflow: auto;
     }
 
