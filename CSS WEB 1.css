@@ -303,11 +303,11 @@ div.start {
         cursor: pointer;
         border: white solid 1px;
         z-index: -1;
-        transform: translateX(100%);
+        transform: translateY(-100%);
     }
 
     nav ul.slide {
-        transform: translateX(0);
+        transform: translateY(0);
     }
 
     .switch {
