@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     transition: .2s;
-    overflow: hidden;
 }
 
 body {
@@ -304,11 +303,11 @@ div.start {
         cursor: pointer;
         border: white solid 1px;
         z-index: -1;
-        transform: translateX(0);
+        transform: translateX(100%);
     }
 
     nav ul.slide {
-        transform: translateX(100%);
+        transform: translateX(0);
     }
 
     .switch {
