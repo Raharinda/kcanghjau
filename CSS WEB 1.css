@@ -112,17 +112,21 @@ input:checked+.slider:before {
 
 
 /* BODY 1 */
-.box {
+div.box {
     display: flex;
+    margin-top: 40vh;
     flex-direction: column;
     align-items: center;
-    height: 500px;
     justify-content: center;
 }
 
+div .box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-.start {
+div.start {
     display: inline-block;
     background: none;
     margin: 15px;
