@@ -7,6 +7,7 @@ body {
 }
 
 body {
+    background-image: url(assets/1224149.png);
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -115,6 +116,7 @@ input:checked+.slider:before {
 
 /* BODY 1 */
 div.box {
+    color: #eaeaea;
     display: flex;
     margin-top: 40vh;
     flex-direction: column;
@@ -133,7 +135,7 @@ div .box p {
 .button-54 {
     font-family: "Open Sans", sans-serif;
     font-size: 0.8em;
-    margin-top: 40px;
+    margin-top: 20px;
     letter-spacing: 1px;
     text-decoration: none;
     padding: 3px;
