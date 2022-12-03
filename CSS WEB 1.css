@@ -8,6 +8,7 @@ body {
 
 body {
     background-image: url(assets/1224149.png);
+    background-size: 100%;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -129,6 +130,7 @@ div .box p {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: 5px 5px 10px #121212;
 }
 
 
@@ -307,6 +309,18 @@ div a {
 
 /* RESPONSIVE AREA */
 
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-size: 130%;
+    }
+}
+    @media screen and (max-width: 768px) {
+        body {
+            background-size: 180%;
+        }
+    }
+        
 @media screen and (min-width: 576px) {
     .menu-toggle {
         display: none;
@@ -314,14 +328,13 @@ div a {
 }
 
 @media screen and (max-width: 576px) {
-
-
-
+     
+    body {
+        background-position: -200px 50px ;
+        background-size: 220%;
+    }
 
     /* NAVBAR */
-
-
-
     nav ul {
         position: absolute;
         right: 0;
