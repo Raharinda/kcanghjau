@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style2.css">
-  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="../nav.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
     <div class="logo">
       <h2>Rivys</h2>
     </div>
-    <ul class="">
+    <ul>
       <li><a href="index.html" ;>Home</a></li>
       <li><a href="youtube.com">About</a></li>
       <li><a href="code.html">Media</a></li>
@@ -34,13 +34,14 @@
   </nav>
   
   <!-- LOGIN FORM -->
-  <form action="index.html" method="post" class="box">
+  <form action="../index.html" method="post" class="box">
     <div class="header">
       <h4>Hai, Siapa Namamu?</h4>
     </div>
     <div class="login-area">
-      <input type="text" class="username" placeholder=" Username">
-      <button class="button-54"> <span>Submit</span></button>
+      <label for="Name">Nama :</label>
+      <input type="text" name="Name" class="username" >
+      <button type="submit" class="btn"> <a href="index3.html">Submit</a></button>
     </div>
   </form>
 
@@ -50,6 +51,6 @@
 
 
 </body>
-<script src="ic.js"></script>
+<script src="ic2.js"></script>
 
 </html>
