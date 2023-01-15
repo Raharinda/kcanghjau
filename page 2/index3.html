@@ -5,33 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="../nav.css">
+    <script src="ic2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
 
-    <main>
-        <h1>DATA</h1>
-        <div id="data"></div>
-        <div>
-            <button id="btn">confirm</button>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">
+            <h2>Rivys</h2>
+        </div>
+        <ul>
+            <li><a href="index.html" ;>Home</a></li>
+            <li><a href="youtube.com">About</a></li>
+            <li><a href="code.html">Media</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="box">
+        <div class="container-box">
+            <h1>ABOUT</h1>
+            <div class="container-content"></div>
+
+
         </div>
 
-    </main>
+
+
+
+
+
+    </div>
 
 
     <script>
-        const json = localStorage.getItem('form');
-        const obj = JSON.parse(json);
+        // const json = localStorage.getItem('form');
+        // const obj = JSON.parse(json);
 
-        for (key in obj) {
-            const markup = `
-            <div>
-                <span>${key}: ${obj[key]}</span>
-            </div>
-            `;
-            document.getElementById('data').innerHTML += markup;
-        }
+        // for (key in obj) {
+        //     const markup = `
+        //     <div>
+        //         <span>${key}: ${obj[key]}</span>
+        //     </div>
+        //     `;
+        //     document.getElementById('data').innerHTML += markup;
+        // }
     </script>
 
 
